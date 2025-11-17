@@ -1,0 +1,75 @@
+
+---Downloaded files---
+The import files for: Ensaf Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://cgabogados.cubagora.com
+Data file = /home/v0zrs366tgm6/public_html/cgabogados.cubagora.com/wp-content/themes/ensaf/inc/demo-data/ensaf-demo.xml
+Widget file = /home/v0zrs366tgm6/public_html/cgabogados.cubagora.com/wp-content/themes/ensaf/inc/demo-data/ensaf-widgets-demo.json
+Customizer file = not defined!
+Redux files:
+ensaf_opt -> /home/v0zrs366tgm6/public_html/cgabogados.cubagora.com/wp-content/themes/ensaf/inc/demo-data/redux_options_demo.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Ensaf :: Search Form - No Title - Imported
+Ensaf :: Category List - Categories - Imported
+Ensaf :: Recent Posts - Recent Posts - Imported
+Bloque - No Title - Imported
+
+Page Sidebar : 
+
+Bloque - No Title - Imported
+Bloque - No Title - Imported
+
+Offcanvas Sidebar : 
+
+Bloque - No Title - Imported
+Ensaf :: Recent Posts - Recent Posts - Imported
+Bloque - No Title - Imported
+
+WooCommerce Sidebar : 
+
+Bloque - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: ensaf_opt finished successfully!
+
+---ocdi/after_import---
+

@@ -1,0 +1,521 @@
+0000.001 (0) Opened log file at time: Fri, 24 Oct 2025 04:17:03 +0000 on https://cgabogados.prueba.krimda.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.8 WP: 6.8.3 PHP: 8.2.29 (litespeed, Linux sxb1plzcpnl508466.prod.sxb1.secureserver.net 4.18.0-553.52.1.lve.el8.x86_64 #1 SMP Wed May 21 15:31:29 UTC 2025 x86_64) MySQL: 10.6.23-MariaDB-cll-lve (max packet size=268435456) WPLANG: es_ES Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.4M | 16M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: Y LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.103 (0) Free space on disk containing Updraft's temporary directory: 703004 MB
+0000.116 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.118 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.124 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1761198087, seconds_ago=81336)
+0000.155 (0) Set semaphore last lock (fd) time to 2025-10-24 04:17:03
+0000.156 (0) Semaphore lock (fd) complete
+0000.161 (0) Backup run: resumption=0, nonce=8c9cd114b1c4, file_nonce=8c9cd114b1c4 begun at=1761279423 (0s ago), job type=backup
+0000.163 (0) Scheduling a resumption (1) after 300 seconds (1761279723) in case this run gets aborted
+0000.189 (0) Checking if we have a zip executable available
+0000.192 (0) Testing: /usr/bin/zip
+0000.203 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.205 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.206 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.210 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.212 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.231 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.234 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.255 (0) Working binary zip found: /usr/bin/zip
+0000.259 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.260 (0) Creation of backups of directories: beginning
+0000.265 (0) No backup of plugins: excluded by user's options
+0000.266 (0) No backup of themes: excluded by user's options
+0000.269 (0) No backup of uploads: excluded by user's options
+0000.277 (0) No backup of mu-plugins: excluded by user's options
+0000.284 (0) No backup of others: excluded by user's options
+0000.302 (0) Saving backup status to database (elements: 0)
+0000.315 (0) Beginning creation of database dump (WordPress DB)
+0000.317 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0000.320 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.383 (0) Output: /*M!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `w5dg_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40 (truncated - 1513 bytes total)
+0000.386 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.431 (0) Table w5dg_options: Total expected rows (via COUNT): 699
+0000.485 (0) Table w5dg_options: Rows added in this batch (next record: 23077): 695 (uncompressed bytes in this segment=725397) in 0.06 seconds
+0000.494 (0) Table w5dg_options: finishing file(s) (2, 134.4 KB)
+0000.509 (0) Table w5dg_site: Total expected rows (via COUNT): 1
+0000.510 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.513 (0) Table w5dg_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=594) in 0.01 seconds
+0000.518 (0) Table w5dg_site: finishing file(s) (2, 0.4 KB)
+0000.527 (0) Table w5dg_blogs: Total expected rows (via COUNT): 1
+0000.531 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.536 (0) Table w5dg_blogs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1129) in 0.01 seconds
+0000.545 (0) Table w5dg_blogs: finishing file(s) (2, 0.5 KB)
+0000.554 (0) Table w5dg_users: Total expected rows (via COUNT): 1
+0000.556 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.558 (0) Table w5dg_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1304) in 0.01 seconds
+0000.565 (0) Table w5dg_users: finishing file(s) (2, 0.6 KB)
+0000.579 (0) Table w5dg_usermeta: Total expected rows (via COUNT): 42
+0000.581 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.586 (0) Table w5dg_usermeta: Rows added in this batch (next record: 42): 42 (uncompressed bytes in this segment=17224) in 0.02 seconds
+0000.593 (0) Table w5dg_usermeta: finishing file(s) (2, 6.6 KB)
+0000.602 (0) Table w5dg_actionscheduler_actions: Total expected rows (via COUNT): 194
+0000.604 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.615 (0) Table w5dg_actionscheduler_actions: Rows added in this batch (next record: 7468): 194 (uncompressed bytes in this segment=96642) in 0.02 seconds
+0000.625 (0) Table w5dg_actionscheduler_actions: finishing file(s) (2, 6.3 KB)
+0000.633 (0) Table w5dg_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.637 (0) Table w5dg_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.01 seconds
+0000.642 (0) Table w5dg_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.667 (0) Table w5dg_actionscheduler_groups: Total expected rows (via COUNT): 7
+0000.675 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.681 (0) Table w5dg_actionscheduler_groups: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=782) in 0.02 seconds
+0000.689 (0) Table w5dg_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.696 (0) Table w5dg_actionscheduler_logs: Total expected rows (via COUNT): 549
+0000.706 (0) Table w5dg_actionscheduler_logs: Rows added in this batch (next record: 22319): 549 (uncompressed bytes in this segment=52413) in 0.01 seconds
+0000.715 (0) Table w5dg_actionscheduler_logs: finishing file(s) (2, 5.2 KB)
+0000.726 (0) Table w5dg_blogmeta: Total expected rows (via COUNT): 0
+0000.731 (0) Table w5dg_blogmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=606) in 0.01 seconds
+0000.742 (0) Table w5dg_blogmeta: finishing file(s) (2, 0.4 KB)
+0000.752 (0) Table w5dg_commentmeta: Total expected rows (via COUNT): 166
+0000.762 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.768 (0) Table w5dg_commentmeta: Rows added in this batch (next record: 166): 166 (uncompressed bytes in this segment=5827) in 0.02 seconds
+0000.775 (0) Table w5dg_commentmeta: finishing file(s) (2, 1.2 KB)
+0000.793 (0) Table w5dg_comments: Total expected rows (via COUNT): 67
+0000.795 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.801 (0) Table w5dg_comments: Rows added in this batch (next record: 67): 67 (uncompressed bytes in this segment=20000) in 0.01 seconds
+0000.815 (0) Table w5dg_comments: finishing file(s) (2, 2 KB)
+0000.826 (0) Table w5dg_links: Total expected rows (via COUNT): 0
+0000.830 (0) Table w5dg_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1035) in 0.01 seconds
+0000.839 (0) Table w5dg_links: finishing file(s) (2, 0.5 KB)
+0000.863 (0) Table w5dg_postmeta: Total expected rows (approximate): 2553
+0000.985 (0) Table w5dg_postmeta: Rows added in this batch (next record: 9359): 3915 (uncompressed bytes in this segment=4807724) in 0.14 seconds
+0000.993 (0) Table w5dg_postmeta: finishing file(s) (2, 346.3 KB)
+0001.005 (0) Table w5dg_posts: Total expected rows (via COUNT): 694
+0001.072 (0) Table w5dg_posts: Rows added in this batch (next record: 2259): 694 (uncompressed bytes in this segment=1973177) in 0.08 seconds
+0001.080 (0) Table w5dg_posts: finishing file(s) (2, 137.4 KB)
+0001.089 (0) Table w5dg_registration_log: Total expected rows (via COUNT): 0
+0001.092 (0) Table w5dg_registration_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=664) in 0.01 seconds
+0001.096 (0) Table w5dg_registration_log: finishing file(s) (2, 0.4 KB)
+0001.114 (0) Table w5dg_signups: Total expected rows (via COUNT): 0
+0001.117 (0) Table w5dg_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1056) in 0.02 seconds
+0001.123 (0) Table w5dg_signups: finishing file(s) (2, 0.5 KB)
+0001.157 (0) Table w5dg_sitemeta: Total expected rows (via COUNT): 42
+0001.161 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.167 (0) Table w5dg_sitemeta: Rows added in this batch (next record: 42): 42 (uncompressed bytes in this segment=7036) in 0.03 seconds
+0001.177 (0) Table w5dg_sitemeta: finishing file(s) (2, 2.9 KB)
+0001.184 (0) Table w5dg_term_relationships: Total expected rows (approximate): 132
+0001.190 (0) Table w5dg_term_relationships: Rows added in this batch (next record: 100000): 132 (uncompressed bytes in this segment=2769) in 0.01 seconds
+0001.196 (0) Table w5dg_term_relationships: finishing file(s) (2, 0.7 KB)
+0001.206 (0) Table w5dg_term_taxonomy: Total expected rows (via COUNT): 50
+0001.207 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.211 (0) Table w5dg_term_taxonomy: Rows added in this batch (next record: 50): 50 (uncompressed bytes in this segment=2697) in 0.01 seconds
+0001.220 (0) Table w5dg_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0001.254 (0) Table w5dg_termmeta: Total expected rows (via COUNT): 5
+0001.257 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.265 (0) Table w5dg_termmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=850) in 0.04 seconds
+0001.272 (0) Table w5dg_termmeta: finishing file(s) (2, 0.5 KB)
+0001.284 (0) Table w5dg_terms: Total expected rows (via COUNT): 50
+0001.286 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.289 (0) Table w5dg_terms: Rows added in this batch (next record: 50): 50 (uncompressed bytes in this segment=2545) in 0.01 seconds
+0001.293 (0) Table w5dg_terms: finishing file(s) (2, 1 KB)
+0001.305 (0) Table w5dg_aioseo_blc_cache: Total expected rows (via COUNT): 53
+0001.307 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.310 (0) Table w5dg_aioseo_blc_cache: Rows added in this batch (next record: 54): 53 (uncompressed bytes in this segment=6756) in 0.01 seconds
+0001.316 (0) Table w5dg_aioseo_blc_cache: finishing file(s) (2, 1 KB)
+0001.325 (0) Table w5dg_aioseo_blc_link_status: Total expected rows (via COUNT): 36
+0001.327 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.338 (0) Table w5dg_aioseo_blc_link_status: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=8767) in 0.02 seconds
+0001.353 (0) Table w5dg_aioseo_blc_link_status: finishing file(s) (2, 2.2 KB)
+0001.362 (0) Table w5dg_aioseo_blc_links: Total expected rows (via COUNT): 431
+0001.366 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.417 (0) Table w5dg_aioseo_blc_links: Rows added in this batch (next record: 517): 431 (uncompressed bytes in this segment=1110163) in 0.06 seconds
+0001.424 (0) Table w5dg_aioseo_blc_links: finishing file(s) (2, 31 KB)
+0001.437 (0) Table w5dg_aioseo_blc_notifications: Total expected rows (via COUNT): 0
+0001.440 (0) Table w5dg_aioseo_blc_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1385) in 0.01 seconds
+0001.447 (0) Table w5dg_aioseo_blc_notifications: finishing file(s) (2, 0.5 KB)
+0001.454 (0) Table w5dg_aioseo_blc_posts: Total expected rows (via COUNT): 52
+0001.455 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.459 (0) Table w5dg_aioseo_blc_posts: Rows added in this batch (next record: 52): 52 (uncompressed bytes in this segment=4941) in 0.01 seconds
+0001.464 (0) Table w5dg_aioseo_blc_posts: finishing file(s) (2, 0.8 KB)
+0001.475 (0) Table w5dg_aioseo_cache: Total expected rows (via COUNT): 12
+0001.477 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.480 (0) Table w5dg_aioseo_cache: Rows added in this batch (next record: 85): 12 (uncompressed bytes in this segment=30780) in 0.01 seconds
+0001.487 (0) Table w5dg_aioseo_cache: finishing file(s) (2, 6.8 KB)
+0001.495 (0) Table w5dg_aioseo_crawl_cleanup_blocked_args: Total expected rows (via COUNT): 0
+0001.499 (0) Table w5dg_aioseo_crawl_cleanup_blocked_args: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=959) in 0.01 seconds
+0001.504 (0) Table w5dg_aioseo_crawl_cleanup_blocked_args: finishing file(s) (2, 0.4 KB)
+0001.511 (0) Table w5dg_aioseo_crawl_cleanup_logs: Total expected rows (via COUNT): 0
+0001.513 (0) Table w5dg_aioseo_crawl_cleanup_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=782) in 0.01 seconds
+0001.520 (0) Table w5dg_aioseo_crawl_cleanup_logs: finishing file(s) (2, 0.4 KB)
+0001.529 (0) Table w5dg_aioseo_notifications: Total expected rows (via COUNT): 7
+0001.530 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.534 (0) Table w5dg_aioseo_notifications: Rows added in this batch (next record: 8): 7 (uncompressed bytes in this segment=17681) in 0.01 seconds
+0001.540 (0) Table w5dg_aioseo_notifications: finishing file(s) (2, 10.6 KB)
+0001.549 (0) Table w5dg_aioseo_posts: Total expected rows (via COUNT): 341
+0001.550 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.570 (0) Table w5dg_aioseo_posts: Rows added in this batch (next record: 341): 341 (uncompressed bytes in this segment=330270) in 0.03 seconds
+0001.576 (0) Table w5dg_aioseo_posts: finishing file(s) (2, 9.5 KB)
+0001.583 (0) Table w5dg_aioseo_seo_analyzer_results: Total expected rows (via COUNT): 1
+0001.584 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.587 (0) Table w5dg_aioseo_seo_analyzer_results: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=6559) in 0.01 seconds
+0001.592 (0) Table w5dg_aioseo_seo_analyzer_results: finishing file(s) (2, 1.8 KB)
+0001.602 (0) Table w5dg_aioseo_writing_assistant_keywords: Total expected rows (via COUNT): 0
+0001.604 (0) Table w5dg_aioseo_writing_assistant_keywords: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1036) in 0.01 seconds
+0001.608 (0) Table w5dg_aioseo_writing_assistant_keywords: finishing file(s) (2, 0.5 KB)
+0001.613 (0) Table w5dg_aioseo_writing_assistant_posts: Total expected rows (via COUNT): 0
+0001.616 (0) Table w5dg_aioseo_writing_assistant_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=936) in 0.00 seconds
+0001.622 (0) Table w5dg_aioseo_writing_assistant_posts: finishing file(s) (2, 0.4 KB)
+0001.629 (0) Table w5dg_blog_versions: Total expected rows (via COUNT): 0
+0001.631 (0) Table w5dg_blog_versions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.01 seconds
+0001.635 (0) Table w5dg_blog_versions: finishing file(s) (2, 0.4 KB)
+0001.642 (0) Table w5dg_e_events: Total expected rows (via COUNT): 1
+0001.643 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.647 (0) Table w5dg_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=787) in 0.01 seconds
+0001.651 (0) Table w5dg_e_events: finishing file(s) (2, 0.5 KB)
+0001.661 (0) Table w5dg_e_submissions: Total expected rows (via COUNT): 0
+0001.664 (0) Table w5dg_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1991) in 0.01 seconds
+0001.669 (0) Table w5dg_e_submissions: finishing file(s) (2, 0.7 KB)
+0001.678 (0) Table w5dg_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0001.680 (0) Table w5dg_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1152) in 0.00 seconds
+0001.684 (0) Table w5dg_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0001.694 (0) Table w5dg_e_submissions_values: Total expected rows (via COUNT): 0
+0001.696 (0) Table w5dg_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0001.701 (0) Table w5dg_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0001.707 (0) Table w5dg_simple_history: Total expected rows (approximate): 1930
+0001.732 (0) Table w5dg_simple_history: Rows added in this batch (next record: 2554): 2007 (uncompressed bytes in this segment=379822) in 0.03 seconds
+0001.737 (0) Table w5dg_simple_history: finishing file(s) (2, 15.7 KB)
+0001.743 (0) Table w5dg_simple_history_contexts: Total expected rows (approximate): 9758
+0001.779 (0) Table w5dg_simple_history_contexts: binary mysqldump finished (writes: 33, bytes 760643, return code 0) in 0.03 seconds
+0001.784 (0) Table w5dg_simple_history_contexts: finishing file(s) (1, 60.2 KB)
+0001.792 (0) Table w5dg_wc_admin_note_actions: Total expected rows (via COUNT): 87
+0001.793 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.798 (0) Table w5dg_wc_admin_note_actions: Rows added in this batch (next record: 1022): 87 (uncompressed bytes in this segment=17319) in 0.01 seconds
+0001.804 (0) Table w5dg_wc_admin_note_actions: finishing file(s) (2, 2.8 KB)
+0001.814 (0) Table w5dg_wc_admin_notes: Total expected rows (via COUNT): 59
+0001.816 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.826 (0) Table w5dg_wc_admin_notes: Rows added in this batch (next record: 59): 59 (uncompressed bytes in this segment=29465) in 0.02 seconds
+0001.835 (0) Table w5dg_wc_admin_notes: finishing file(s) (2, 6.4 KB)
+0001.841 (0) Table w5dg_wc_category_lookup: Total expected rows (approximate): 2
+0001.845 (0) Table w5dg_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=614) in 0.01 seconds
+0001.851 (0) Table w5dg_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0001.859 (0) Table w5dg_wc_customer_lookup: Total expected rows (via COUNT): 0
+0001.861 (0) Table w5dg_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.01 seconds
+0001.866 (0) Table w5dg_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0001.872 (0) Table w5dg_wc_download_log: Total expected rows (via COUNT): 0
+0001.874 (0) Table w5dg_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0001.891 (0) Table w5dg_wc_download_log: finishing file(s) (2, 0.4 KB)
+0001.903 (0) Table w5dg_wc_order_addresses: Total expected rows (via COUNT): 0
+0001.905 (0) Table w5dg_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1070) in 0.01 seconds
+0001.913 (0) Table w5dg_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0001.932 (0) Table w5dg_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0001.934 (0) Table w5dg_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0001.939 (0) Table w5dg_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0001.945 (0) Table w5dg_wc_order_operational_data: Total expected rows (via COUNT): 0
+0001.947 (0) Table w5dg_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1411) in 0.00 seconds
+0001.952 (0) Table w5dg_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0001.960 (0) Table w5dg_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0001.967 (0) Table w5dg_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.01 seconds
+0001.971 (0) Table w5dg_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0001.977 (0) Table w5dg_wc_order_stats: Total expected rows (via COUNT): 0
+0001.979 (0) Table w5dg_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1204) in 0.00 seconds
+0001.983 (0) Table w5dg_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0001.990 (0) Table w5dg_wc_order_tax_lookup: Total expected rows (approximate): 0
+0001.994 (0) Table w5dg_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.01 seconds
+0001.997 (0) Table w5dg_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0002.004 (0) Table w5dg_wc_orders: Total expected rows (via COUNT): 0
+0002.006 (0) Table w5dg_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1429) in 0.01 seconds
+0002.013 (0) Table w5dg_wc_orders: finishing file(s) (2, 0.6 KB)
+0002.020 (0) Table w5dg_wc_orders_meta: Total expected rows (via COUNT): 0
+0002.024 (0) Table w5dg_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.01 seconds
+0002.029 (0) Table w5dg_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0002.034 (0) Table w5dg_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0002.037 (0) Table w5dg_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=843) in 0.00 seconds
+0002.044 (0) Table w5dg_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0002.051 (0) Table w5dg_wc_product_download_directories: Total expected rows (via COUNT): 2
+0002.052 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.055 (0) Table w5dg_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=942) in 0.01 seconds
+0002.059 (0) Table w5dg_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0002.069 (0) Table w5dg_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0002.073 (0) Table w5dg_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1308) in 0.01 seconds
+0002.078 (0) Table w5dg_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0002.085 (0) Table w5dg_wc_rate_limits: Total expected rows (via COUNT): 0
+0002.088 (0) Table w5dg_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.01 seconds
+0002.093 (0) Table w5dg_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0002.099 (0) Table w5dg_wc_reserved_stock: Total expected rows (approximate): 0
+0002.101 (0) Table w5dg_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0002.106 (0) Table w5dg_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0002.113 (0) Table w5dg_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0002.114 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.117 (0) Table w5dg_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.01 seconds
+0002.122 (0) Table w5dg_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0002.130 (0) Table w5dg_wc_webhooks: Total expected rows (via COUNT): 0
+0002.134 (0) Table w5dg_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.01 seconds
+0002.139 (0) Table w5dg_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0002.149 (0) Table w5dg_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0002.161 (0) Table w5dg_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.02 seconds
+0002.169 (0) Table w5dg_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0002.178 (0) Table w5dg_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0002.187 (0) Table w5dg_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.01 seconds
+0002.194 (0) Table w5dg_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0002.202 (0) Table w5dg_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0002.207 (0) Table w5dg_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.01 seconds
+0002.213 (0) Table w5dg_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0002.228 (0) Table w5dg_woocommerce_log: Total expected rows (via COUNT): 0
+0002.230 (0) Table w5dg_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.01 seconds
+0002.242 (0) Table w5dg_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0002.252 (0) Table w5dg_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0002.256 (0) Table w5dg_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.01 seconds
+0002.270 (0) Table w5dg_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0002.285 (0) Table w5dg_woocommerce_order_items: Total expected rows (via COUNT): 0
+0002.289 (0) Table w5dg_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0002.294 (0) Table w5dg_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0002.302 (0) Table w5dg_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0002.306 (0) Table w5dg_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+0002.311 (0) Table w5dg_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0002.320 (0) Table w5dg_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0002.324 (0) Table w5dg_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.01 seconds
+0002.330 (0) Table w5dg_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0002.338 (0) Table w5dg_woocommerce_sessions: Total expected rows (via COUNT): 1
+0002.340 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.344 (0) Table w5dg_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2199) in 0.01 seconds
+0002.348 (0) Table w5dg_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0002.355 (0) Table w5dg_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0002.358 (0) Table w5dg_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.01 seconds
+0002.365 (0) Table w5dg_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0002.372 (0) Table w5dg_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0002.374 (0) Table w5dg_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=754) in 0.00 seconds
+0002.380 (0) Table w5dg_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0002.389 (0) Table w5dg_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0002.392 (0) Table w5dg_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.00 seconds
+0002.398 (0) Table w5dg_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0002.405 (0) Table w5dg_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0002.407 (0) Table w5dg_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0002.412 (0) Table w5dg_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0002.419 (0) Table w5dg_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0002.421 (0) Table w5dg_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0002.425 (0) Table w5dg_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0002.430 (0) Table w5dg_wp_ada_compliance_basic: Total expected rows (via COUNT): 5
+0002.432 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.435 (0) Table w5dg_wp_ada_compliance_basic: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2116) in 0.01 seconds
+0002.440 (0) Table w5dg_wp_ada_compliance_basic: finishing file(s) (2, 0.8 KB)
+0002.449 (0) Table w5dg_wpforms_logs: Total expected rows (via COUNT): 13
+0002.451 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.453 (0) Table w5dg_wpforms_logs: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=2172) in 0.01 seconds
+0002.459 (0) Table w5dg_wpforms_logs: finishing file(s) (2, 0.7 KB)
+0002.468 (0) Table w5dg_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0002.472 (0) Table w5dg_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0002.477 (0) Table w5dg_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0002.485 (0) Table w5dg_wpforms_payments: Total expected rows (via COUNT): 0
+0002.489 (0) Table w5dg_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1662) in 0.01 seconds
+0002.496 (0) Table w5dg_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0002.518 (0) Table w5dg_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0002.519 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.528 (0) Table w5dg_wpforms_tasks_meta: Rows added in this batch (next record: 8): 5 (uncompressed bytes in this segment=993) in 0.02 seconds
+0002.538 (0) Table w5dg_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0002.561 (0) Table w5dg_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+0002.568 (0) Table w5dg_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=683) in 0.01 seconds
+0002.580 (0) Table w5dg_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0002.599 (0) Table w5dg_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 1
+0002.601 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.609 (0) Table w5dg_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=718) in 0.02 seconds
+0002.617 (0) Table w5dg_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0002.629 (0) Table w5dg_yoast_indexable: Total expected rows (via COUNT): 77
+0002.630 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.638 (0) Table w5dg_yoast_indexable: Rows added in this batch (next record: 78): 77 (uncompressed bytes in this segment=46787) in 0.01 seconds
+0002.646 (0) Table w5dg_yoast_indexable: finishing file(s) (2, 6.5 KB)
+0002.652 (0) Table w5dg_yoast_indexable_hierarchy: Total expected rows (approximate): 75
+0002.657 (0) Table w5dg_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 75 (uncompressed bytes in this segment=2004) in 0.01 seconds
+0002.663 (0) Table w5dg_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0002.671 (0) Table w5dg_yoast_migrations: Total expected rows (via COUNT): 24
+0002.674 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.679 (0) Table w5dg_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1252) in 0.01 seconds
+0002.684 (0) Table w5dg_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0002.692 (0) Table w5dg_yoast_primary_term: Total expected rows (via COUNT): 0
+0002.696 (0) Table w5dg_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.01 seconds
+0002.701 (0) Table w5dg_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0002.707 (0) Table w5dg_yoast_seo_links: Total expected rows (approximate): 1318
+0002.730 (0) Table w5dg_yoast_seo_links: Rows added in this batch (next record: 1360): 1318 (uncompressed bytes in this segment=176194) in 0.03 seconds
+0002.738 (0) Table w5dg_yoast_seo_links: finishing file(s) (2, 11.5 KB)
+0002.740 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/qjrsn69v68ls/public_html/cgabogados.prueba.krimda.com/wp-content/updraft/backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0002.744 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_options.table.tmpr23078.gz (1/88/fopen): adding to final database dump
+0002.754 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_options.table.gz (2/88/fopen): adding to final database dump
+0002.756 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_site.table.tmpr2.gz (3/88/fopen): adding to final database dump
+0002.758 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_site.table.gz (4/88/fopen): adding to final database dump
+0002.759 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_blogs.table.tmpr2.gz (5/88/fopen): adding to final database dump
+0002.761 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_blogs.table.gz (6/88/fopen): adding to final database dump
+0002.762 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_users.table.tmpr2.gz (7/88/fopen): adding to final database dump
+0002.764 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_users.table.gz (8/88/fopen): adding to final database dump
+0002.766 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_usermeta.table.tmpr43.gz (9/88/fopen): adding to final database dump
+0002.768 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_usermeta.table.gz (10/88/fopen): adding to final database dump
+0002.770 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_actions.table.tmpr7469.gz (11/88/fopen): adding to final database dump
+0002.773 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_actions.table.gz (12/88/fopen): adding to final database dump
+0002.776 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_claims.table.tmpr0.gz (13/88/fopen): adding to final database dump
+0002.777 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_claims.table.gz (14/88/fopen): adding to final database dump
+0002.779 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_groups.table.tmpr8.gz (15/88/fopen): adding to final database dump
+0002.781 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_groups.table.gz (16/88/fopen): adding to final database dump
+0002.783 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_logs.table.tmpr22320.gz (17/88/fopen): adding to final database dump
+0002.785 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_actionscheduler_logs.table.gz (18/88/fopen): adding to final database dump
+0002.786 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_blogmeta.table.tmpr0.gz (19/88/fopen): adding to final database dump
+0002.787 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_blogmeta.table.gz (20/88/fopen): adding to final database dump
+0002.789 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_commentmeta.table.tmpr167.gz (21/88/fopen): adding to final database dump
+0002.791 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_commentmeta.table.gz (22/88/fopen): adding to final database dump
+0002.794 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_comments.table.tmpr68.gz (23/88/fopen): adding to final database dump
+0002.796 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_comments.table.gz (24/88/fopen): adding to final database dump
+0002.797 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_links.table.tmpr0.gz (25/88/fopen): adding to final database dump
+0002.799 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_links.table.gz (26/88/fopen): adding to final database dump
+0002.801 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_postmeta.table.tmpr9360.gz (27/88/fopen): adding to final database dump
+0002.825 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_postmeta.table.gz (28/88/fopen): adding to final database dump
+0002.829 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_posts.table.tmpr2260.gz (29/88/fopen): adding to final database dump
+0002.841 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_posts.table.gz (30/88/fopen): adding to final database dump
+0002.843 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_registration_log.table.tmpr0.gz (31/88/fopen): adding to final database dump
+0002.845 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_registration_log.table.gz (32/88/fopen): adding to final database dump
+0002.846 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_signups.table.tmpr0.gz (33/88/fopen): adding to final database dump
+0002.848 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_signups.table.gz (34/88/fopen): adding to final database dump
+0002.849 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_sitemeta.table.tmpr43.gz (35/88/fopen): adding to final database dump
+0002.850 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_sitemeta.table.gz (36/88/fopen): adding to final database dump
+0002.851 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_term_relationships.table.tmpr100001.gz (37/88/fopen): adding to final database dump
+0002.855 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_term_relationships.table.gz (38/88/fopen): adding to final database dump
+0002.856 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_term_taxonomy.table.tmpr51.gz (39/88/fopen): adding to final database dump
+0002.857 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_term_taxonomy.table.gz (40/88/fopen): adding to final database dump
+0002.858 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_termmeta.table.tmpr6.gz (41/88/fopen): adding to final database dump
+0002.860 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_termmeta.table.gz (42/88/fopen): adding to final database dump
+0002.862 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_terms.table.tmpr51.gz (43/88/fopen): adding to final database dump
+0002.864 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_terms.table.gz (44/88/fopen): adding to final database dump
+0002.865 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_cache.table.tmpr55.gz (45/88/fopen): adding to final database dump
+0002.866 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_cache.table.gz (46/88/fopen): adding to final database dump
+0002.868 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_link_status.table.tmpr37.gz (47/88/fopen): adding to final database dump
+0002.870 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_link_status.table.gz (48/88/fopen): adding to final database dump
+0002.871 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_links.table.tmpr518.gz (49/88/fopen): adding to final database dump
+0002.875 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_links.table.gz (50/88/fopen): adding to final database dump
+0002.876 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_notifications.table.tmpr0.gz (51/88/fopen): adding to final database dump
+0002.878 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_notifications.table.gz (52/88/fopen): adding to final database dump
+0002.879 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_posts.table.tmpr53.gz (53/88/fopen): adding to final database dump
+0002.880 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_blc_posts.table.gz (54/88/fopen): adding to final database dump
+0002.881 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_cache.table.tmpr86.gz (55/88/fopen): adding to final database dump
+0002.883 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_cache.table.gz (56/88/fopen): adding to final database dump
+0002.884 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_crawl_cleanup_blocked_args.table.tmpr0.gz (57/88/fopen): adding to final database dump
+0002.885 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_crawl_cleanup_blocked_args.table.gz (58/88/fopen): adding to final database dump
+0002.886 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_crawl_cleanup_logs.table.tmpr0.gz (59/88/fopen): adding to final database dump
+0002.888 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_crawl_cleanup_logs.table.gz (60/88/fopen): adding to final database dump
+0002.889 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_notifications.table.tmpr9.gz (61/88/fopen): adding to final database dump
+0002.891 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_notifications.table.gz (62/88/fopen): adding to final database dump
+0002.892 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_posts.table.tmpr342.gz (63/88/fopen): adding to final database dump
+0002.893 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_posts.table.gz (64/88/fopen): adding to final database dump
+0002.897 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_seo_analyzer_results.table.tmpr3.gz (65/88/fopen): adding to final database dump
+0002.899 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_seo_analyzer_results.table.gz (66/88/fopen): adding to final database dump
+0002.900 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_writing_assistant_keywords.table.tmpr0.gz (67/88/fopen): adding to final database dump
+0002.903 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_writing_assistant_keywords.table.gz (68/88/fopen): adding to final database dump
+0002.904 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_writing_assistant_posts.table.tmpr0.gz (69/88/fopen): adding to final database dump
+0002.906 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_aioseo_writing_assistant_posts.table.gz (70/88/fopen): adding to final database dump
+0002.908 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_blog_versions.table.tmpr0.gz (71/88/fopen): adding to final database dump
+0002.911 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_blog_versions.table.gz (72/88/fopen): adding to final database dump
+0002.915 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_events.table.tmpr2.gz (73/88/fopen): adding to final database dump
+0002.933 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_events.table.gz (74/88/fopen): adding to final database dump
+0002.943 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_submissions.table.tmpr0.gz (75/88/fopen): adding to final database dump
+0002.954 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_submissions.table.gz (76/88/fopen): adding to final database dump
+0002.957 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_submissions_actions_log.table.tmpr0.gz (77/88/fopen): adding to final database dump
+0002.963 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_submissions_actions_log.table.gz (78/88/fopen): adding to final database dump
+0002.970 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_submissions_values.table.tmpr0.gz (79/88/fopen): adding to final database dump
+0002.972 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_e_submissions_values.table.gz (80/88/fopen): adding to final database dump
+0002.974 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_simple_history.table.tmpr2555.gz (81/88/fopen): adding to final database dump
+0002.976 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_simple_history.table.gz (82/88/fopen): adding to final database dump
+0002.979 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_simple_history_contexts.table.gz (83/88/fopen): adding to final database dump
+0002.983 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_admin_note_actions.table.tmpr1023.gz (84/88/fopen): adding to final database dump
+0002.985 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_admin_note_actions.table.gz (85/88/fopen): adding to final database dump
+0002.987 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_admin_notes.table.tmpr60.gz (86/88/fopen): adding to final database dump
+0002.988 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_admin_notes.table.gz (87/88/fopen): adding to final database dump
+0002.991 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_category_lookup.table.tmpr1001.gz (88/88/fopen): adding to final database dump
+0002.993 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_category_lookup.table.gz (89/88/fopen): adding to final database dump
+0002.994 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_customer_lookup.table.tmpr0.gz (90/88/fopen): adding to final database dump
+0003.005 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_customer_lookup.table.gz (91/88/fopen): adding to final database dump
+0003.009 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_download_log.table.tmpr0.gz (92/88/fopen): adding to final database dump
+0003.010 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_download_log.table.gz (93/88/fopen): adding to final database dump
+0003.011 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_addresses.table.tmpr0.gz (94/88/fopen): adding to final database dump
+0003.013 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_addresses.table.gz (95/88/fopen): adding to final database dump
+0003.014 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_coupon_lookup.table.tmpr1.gz (96/88/fopen): adding to final database dump
+0003.015 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_coupon_lookup.table.gz (97/88/fopen): adding to final database dump
+0003.016 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_operational_data.table.tmpr0.gz (98/88/fopen): adding to final database dump
+0003.017 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_operational_data.table.gz (99/88/fopen): adding to final database dump
+0003.021 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_product_lookup.table.tmpr0.gz (100/88/fopen): adding to final database dump
+0003.023 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_product_lookup.table.gz (101/88/fopen): adding to final database dump
+0003.025 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_stats.table.tmpr0.gz (102/88/fopen): adding to final database dump
+0003.028 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_stats.table.gz (103/88/fopen): adding to final database dump
+0003.030 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_tax_lookup.table.tmpr1.gz (104/88/fopen): adding to final database dump
+0003.033 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_order_tax_lookup.table.gz (105/88/fopen): adding to final database dump
+0003.039 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_orders.table.tmpr0.gz (106/88/fopen): adding to final database dump
+0003.041 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_orders.table.gz (107/88/fopen): adding to final database dump
+0003.044 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_orders_meta.table.tmpr0.gz (108/88/fopen): adding to final database dump
+0003.050 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_orders_meta.table.gz (109/88/fopen): adding to final database dump
+0003.053 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_product_attributes_lookup.table.tmpr1.gz (110/88/fopen): adding to final database dump
+0003.065 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_product_attributes_lookup.table.gz (111/88/fopen): adding to final database dump
+0003.069 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_product_download_directories.table.tmpr3.gz (112/88/fopen): adding to final database dump
+0003.076 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_product_download_directories.table.gz (113/88/fopen): adding to final database dump
+0003.078 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_product_meta_lookup.table.tmpr0.gz (114/88/fopen): adding to final database dump
+0003.080 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_product_meta_lookup.table.gz (115/88/fopen): adding to final database dump
+0003.081 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_rate_limits.table.tmpr0.gz (116/88/fopen): adding to final database dump
+0003.083 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_rate_limits.table.gz (117/88/fopen): adding to final database dump
+0003.083 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_reserved_stock.table.tmpr1.gz (118/88/fopen): adding to final database dump
+0003.085 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_reserved_stock.table.gz (119/88/fopen): adding to final database dump
+0003.086 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_tax_rate_classes.table.tmpr3.gz (120/88/fopen): adding to final database dump
+0003.087 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_tax_rate_classes.table.gz (121/88/fopen): adding to final database dump
+0003.087 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_webhooks.table.tmpr0.gz (122/88/fopen): adding to final database dump
+0003.089 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wc_webhooks.table.gz (123/88/fopen): adding to final database dump
+0003.090 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_api_keys.table.tmpr0.gz (124/88/fopen): adding to final database dump
+0003.091 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_api_keys.table.gz (125/88/fopen): adding to final database dump
+0003.092 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_attribute_taxonomies.table.tmpr0.gz (126/88/fopen): adding to final database dump
+0003.093 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_attribute_taxonomies.table.gz (127/88/fopen): adding to final database dump
+0003.094 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_downloadable_product_permissions.table.tmpr0.gz (128/88/fopen): adding to final database dump
+0003.095 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_downloadable_product_permissions.table.gz (129/88/fopen): adding to final database dump
+0003.095 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_log.table.tmpr0.gz (130/88/fopen): adding to final database dump
+0003.096 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_log.table.gz (131/88/fopen): adding to final database dump
+0003.097 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_order_itemmeta.table.tmpr0.gz (132/88/fopen): adding to final database dump
+0003.099 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_order_itemmeta.table.gz (133/88/fopen): adding to final database dump
+0003.099 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_order_items.table.tmpr0.gz (134/88/fopen): adding to final database dump
+0003.100 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_order_items.table.gz (135/88/fopen): adding to final database dump
+0003.101 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_payment_tokenmeta.table.tmpr0.gz (136/88/fopen): adding to final database dump
+0003.103 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_payment_tokenmeta.table.gz (137/88/fopen): adding to final database dump
+0003.104 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_payment_tokens.table.tmpr0.gz (138/88/fopen): adding to final database dump
+0003.105 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_payment_tokens.table.gz (139/88/fopen): adding to final database dump
+0003.106 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_sessions.table.tmpr2.gz (140/88/fopen): adding to final database dump
+0003.107 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_sessions.table.gz (141/88/fopen): adding to final database dump
+0003.108 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_shipping_zone_locations.table.tmpr0.gz (142/88/fopen): adding to final database dump
+0003.109 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_shipping_zone_locations.table.gz (143/88/fopen): adding to final database dump
+0003.109 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_shipping_zone_methods.table.tmpr0.gz (144/88/fopen): adding to final database dump
+0003.110 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_shipping_zone_methods.table.gz (145/88/fopen): adding to final database dump
+0003.111 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_shipping_zones.table.tmpr0.gz (146/88/fopen): adding to final database dump
+0003.112 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_shipping_zones.table.gz (147/88/fopen): adding to final database dump
+0003.113 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_tax_rate_locations.table.tmpr0.gz (148/88/fopen): adding to final database dump
+0003.114 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_tax_rate_locations.table.gz (149/88/fopen): adding to final database dump
+0003.115 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_tax_rates.table.tmpr0.gz (150/88/fopen): adding to final database dump
+0003.116 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_woocommerce_tax_rates.table.gz (151/88/fopen): adding to final database dump
+0003.118 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wp_ada_compliance_basic.table.tmpr6.gz (152/88/fopen): adding to final database dump
+0003.120 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wp_ada_compliance_basic.table.gz (153/88/fopen): adding to final database dump
+0003.120 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_logs.table.tmpr14.gz (154/88/fopen): adding to final database dump
+0003.121 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_logs.table.gz (155/88/fopen): adding to final database dump
+0003.122 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_payment_meta.table.tmpr0.gz (156/88/fopen): adding to final database dump
+0003.123 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_payment_meta.table.gz (157/88/fopen): adding to final database dump
+0003.124 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_payments.table.tmpr0.gz (158/88/fopen): adding to final database dump
+0003.125 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_payments.table.gz (159/88/fopen): adding to final database dump
+0003.126 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_tasks_meta.table.tmpr9.gz (160/88/fopen): adding to final database dump
+0003.127 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpforms_tasks_meta.table.gz (161/88/fopen): adding to final database dump
+0003.128 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpmailsmtp_debug_events.table.tmpr0.gz (162/88/fopen): adding to final database dump
+0003.129 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpmailsmtp_debug_events.table.gz (163/88/fopen): adding to final database dump
+0003.130 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpmailsmtp_tasks_meta.table.tmpr2.gz (164/88/fopen): adding to final database dump
+0003.131 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_wpmailsmtp_tasks_meta.table.gz (165/88/fopen): adding to final database dump
+0003.132 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_indexable.table.tmpr79.gz (166/88/fopen): adding to final database dump
+0003.134 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_indexable.table.gz (167/88/fopen): adding to final database dump
+0003.135 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_indexable_hierarchy.table.tmpr1001.gz (168/88/fopen): adding to final database dump
+0003.136 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_indexable_hierarchy.table.gz (169/88/fopen): adding to final database dump
+0003.137 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_migrations.table.tmpr25.gz (170/88/fopen): adding to final database dump
+0003.138 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_migrations.table.gz (171/88/fopen): adding to final database dump
+0003.138 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_primary_term.table.tmpr0.gz (172/88/fopen): adding to final database dump
+0003.140 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_primary_term.table.gz (173/88/fopen): adding to final database dump
+0003.141 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_seo_links.table.tmpr1361.gz (174/88/fopen): adding to final database dump
+0003.143 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db-table-w5dg_yoast_seo_links.table.gz (175/88/fopen): adding to final database dump
+0003.151 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db.gz: finished writing out complete database file (839.3 KB)
+0003.194 (0) Total database tables backed up: 88 (backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db.gz, size: 859558, sha1: 14d106bc9a76d59be09843dfcb1e90145bfa5fac, sha256: 526e2b6382d771310abff521e2bfa8e82d5fa7a20622d5e75ae2a00d3f976c94)
+0003.213 (0) backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.214 (0) Saving backup history. Total backup size: 839.4 KB
+0003.222 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0003.226 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.227 (0) No remote despatch: user chose no remote backup service
+0003.229 (0) Recording as successfully uploaded: backup_2025-10-24-0417_CG_Abogados_8c9cd114b1c4-db.gz
+0003.234 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0003.236 (0) Resume backup (8c9cd114b1c4, 0): finish run
+0003.240 (0) Decremented the semaphore (fd) by 1
+0003.243 (0) Semaphore (fd) unlocked
+0003.245 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.259 (0) The backup succeeded and is now complete
+0003.262 (0) No email will/can be sent - the user has not configured an email address.
+0003.263 (0) La copia de seguridad se ha realizado correctamente y se ha completado
